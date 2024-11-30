@@ -4,3 +4,5 @@
 npm test
 
 npx eslint .
+
+npx --no-install eslint . && npm test
