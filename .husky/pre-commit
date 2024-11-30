@@ -1,8 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm test
-
-npx eslint .
-
-npx --no-install eslint . && npm test
+npx eslint . && npm test
